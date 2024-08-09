@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "table20240809s",
+  "info": {
+    "singularName": "table20240809",
+    "pluralName": "table20240809s",
+    "displayName": "table20240809"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "is_collab": {
+      "type": "boolean"
+    }
+  }
+}

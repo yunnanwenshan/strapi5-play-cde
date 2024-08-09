@@ -1,0 +1,39 @@
+{
+  "name": "strapi5-play-cde",
+  "version": "0.1.1",
+  "description": "code playgrounds for strapi v5",
+  "license": "MIT",
+  "author": "jinyaoo",
+  "scripts": {
+    "build": "strapi build",
+    "clean": "rimraf .strapi/ dist/ node_modules/.strapi/",
+    "deploy": "strapi deploy",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "^5.0.0-rc.8",
+    "@strapi/plugin-users-permissions": "^5.0.0-rc.8",
+    "@strapi/strapi": "^5.0.0-rc.8",
+    "better-sqlite3": "9.4.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "rimraf": "^6.0.1",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=23.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "c5c075ff-c7ef-4d66-b34e-d4a4d9be23fd"
+  }
+}
