@@ -4,19 +4,22 @@
   "description": "code playgrounds for strapi v5",
   "license": "MIT",
   "author": "jinyaoo",
-  "scripts": {
+    "scripts": {
     "build": "strapi build",
     "clean": "rimraf .strapi/ dist/ node_modules/.strapi/",
     "deploy": "strapi deploy",
     "develop": "strapi develop",
+    "seed:example": "node ./scripts/seed.js",
     "start": "strapi start",
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "^5.0.0-rc.8",
-    "@strapi/plugin-users-permissions": "^5.0.0-rc.8",
-    "@strapi/strapi": "^5.0.0-rc.8",
+    "@strapi/plugin-cloud": "5.0.0",
+    "@strapi/plugin-users-permissions": "5.0.0",
+    "@strapi/strapi": "5.0.0",
     "better-sqlite3": "9.4.3",
+    "fs-extra": "^10.0.0",
+    "mime-types": "^2.1.27",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
@@ -27,6 +30,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "rimraf": "^6.0.1",
+
     "typescript": "^5"
   },
   "engines": {
@@ -34,6 +38,6 @@
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "c5c075ff-c7ef-4d66-b34e-d4a4d9be23fd"
+    "uuid": "e81377d0-15ea-4a96-9476-ff6de939a465"
   }
 }
