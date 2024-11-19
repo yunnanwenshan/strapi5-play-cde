@@ -33,6 +33,16 @@ $RECYCLE.BIN/
 
 
 ############################
+# System and Version Control Files
+############################
+
+.git/
+.DS_Store
+Thumbs.db
+.nfs*
+
+
+############################
 # Packages
 ############################
 
@@ -70,6 +80,23 @@ $RECYCLE.BIN/
 *.sql
 *.sqlite
 *.sqlite3
+*.db
+*.sql-journal
+*.log
+*.pid.lock
+
+############################
+# Language and Framework Specific Files
+############################
+
+node_modules/
+.pnpm-store/
+dist/
+env/
+venv/
+vendor/
+cython_debug/
+*.dll
 
 
 ############################
@@ -84,6 +111,12 @@ public/uploads/*
 !public/uploads/.gitkeep
 .tsbuildinfo
 .eslintcache
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.env
 
 ############################
 # Node.js
