@@ -1,78 +1,101 @@
 fileChangeLogs:
   - .env
-  - node_modules
   - '.1024'
+  - node_modules
   - .gitignore
-  - dist/src/components/shared/quote.json
-  - dist/src/api/global/services
-  - dist/src/api/category/content-types
   - dist/src/components/shared/slider.json
+  - dist/src/api/global/content-types/global
+  - dist/src/api/movie-tag/routes
+  - dist/src/api/about/routes
   - dist/src/api/author/routes
-  - dist/src/api/global/controllers
+  - dist/src/api/about/content-types/about
   - dist/src/api/article/content-types
+  - dist/src/api/movie-tag/content-types
+  - dist/src/api/article/routes
+  - dist/src
+  - dist/src/api/global/services
+  - dist/src/api/author/services
+  - dist
+  - dist/src/api/article
+  - dist/src/api/author/controllers
+  - dist/src/api/global/controllers/global.js
+  - dist/src/api/movie-tag/content-types/movie-tag
+  - dist/src/api/category/content-types
+  - dist/src/api/global/content-types
+  - dist/config
+  - dist/config/database.js
+  - dist/src/api/author
+  - dist/src/api/category/routes
+  - dist/src/api/global/routes
+  - dist/src/api/category
+  - dist/src/components/shared
+  - dist/src/api/movie-tag/controllers
+  - dist/config/api.js
+  - dist/src/api/about
+  - dist/src/api/movie-tag/services
+  - dist/src/api/article/services
+  - dist/src/api
+  - dist/src/api/category/content-types/category
+  - dist/src/api/movie-tag
+  - dist/tsconfig.tsbuildinfo
+  - dist/config/middlewares.js
+  - dist/src/api/article/controllers
   - dist/src/api/author/content-types
   - dist/src/components/shared/rich-text.json
-  - dist/src/api/article
-  - dist/src/api/author/services
-  - dist/src/api/global
-  - dist/src/api/movie-tag/content-types/movie-tag
   - dist/src/components
-  - dist/src/api/about/controllers/about.js
-  - dist/src/api/author/content-types/author
-  - dist/src/api/movie-tag/content-types
-  - dist/src/api/author
-  - dist/src/api/global/controllers/global.js
-  - dist/src
-  - dist/config/middlewares.js
-  - dist/src/api/about/controllers
-  - dist/src/api/global/routes
-  - dist/src/components/shared
-  - dist
-  - dist/src/api/movie-tag/controllers
-  - dist/src/api/global/routes/global.js
-  - dist/config/server.js
-  - dist/src/api/article/content-types/article
   - dist/src/api/category/controllers
-  - dist/src/api/movie-tag/routes
-  - dist/src/api/global/content-types
-  - dist/tsconfig.tsbuildinfo
-  - dist/src/api/article/services
-  - dist/config/plugins.js
-  - dist/src/api
-  - dist/src/api/category/routes/category.js
-  - dist/src/api/about/content-types
-  - dist/src/api/article/services/article.js
-  - dist/src/api/movie-tag/services
-  - dist/config/api.js
-  - dist/src/api/category/services
-  - dist/src/api/movie-tag
-  - dist/src/api/category/content-types/category
-  - dist/src/api/category/controllers/category.js
-  - dist/src/api/about
-  - dist/src/api/about/services/about.js
-  - dist/src/api/author/controllers
-  - dist/src/api/about/routes/about.js
-  - dist/src/api/global/services/global.js
   - dist/src/api/global/content-types/global/schema.json
-  - dist/config/database.js
-  - dist/src/api/category
-  - dist/src/api/category/routes
-  - dist/src/api/article/routes
-  - dist/src/api/global/content-types/global
-  - dist/src/api/article/controllers
-  - dist/src/api/about/services
-  - dist/src/api/about/content-types/about
-  - dist/src/api/about/routes
+  - dist/src/api/author/content-types/author
+  - dist/src/api/category/services
+  - dist/src/api/about/content-types
+  - dist/src/api/article/content-types/article
   - dist/src/components/shared/seo.json
-  - dist/config
+  - dist/src/api/article/services/article.js
+  - dist/config/server.js
+  - dist/src/api/about/services
+  - dist/src/api/global
+  - dist/src/api/global/controllers
+  - dist/src/api/about/controllers
   - .strapi-updater.json
   - .tmp
   - .strapi
-  - dist/src/api/article/content-types/article/schema.json
+  - dist/config/plugins.js
+  - dist/src/api/about/services/about.js
+  - dist/src/components/shared/quote.json
+  - dist/src/api/article/routes/article.js
   - dist/src/api/movie-tag/content-types/movie-tag/schema.json
-  - dist/src/api/author/content-types/author/schema.json
-  - dist/src/index.js
-  - dist/src/api/movie-tag/services/movie-tag.js
-  - dist/src/api/category/content-types/category/schema.json
-  - dist/src/api/author/controllers/author.js
+  - dist/src/api/about/controllers/about.js
+  - dist/src/api/global/services/global.js
+  - dist/src/api/category/routes/category.js
+  - dist/src/api/about/routes/about.js
+  - dist/src/api/movie-tag/controllers/movie-tag.js
   - dist/src/api/article/controllers/article.js
+  - dist/src/api/movie-tag/routes/movie-tag.js
+  - dist/src/api/category/controllers/category.js
+  - dist/src/api/article/content-types/article/schema.json
+  - dist/src/api/author/services/author.js
+  - dist/src/api/author/content-types/author/schema.json
+  - dist/src/api/global/routes/global.js
+  - src/api/genre/controllers
+  - src/api/genre/services
+  - src/api/genre/controllers/genre.ts
+  - src/api/genre/content-types
+  - src/api/genre/content-types/genre
+  - src/api/genre/content-types/genre/schema.json
+  - src/api/genre/routes/genre.ts
+  - src/api/genre/services/genre.ts
+  - src/api/genre/routes
+  - src/api/genre
+  - dist/src/api/genre
+  - dist/src/api/genre/content-types/genre
+  - dist/src/api/genre/controllers
+  - dist/src/api/genre/content-types
+  - dist/src/api/genre/services
+  - dist/src/api/genre/routes
+  - dist/config/admin.js
+  - dist/src/api/author/controllers/author.js
+  - dist/src/api/category/services/category.js
+  - dist/src/api/author/routes/author.js
+  - dist/src/api/genre/controllers/genre.js
+  - dist/src/api/genre/content-types/genre/schema.json
+  - dist/src/api/about/content-types/about/schema.json
