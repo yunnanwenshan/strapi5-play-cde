@@ -72,6 +72,18 @@ Thumbs.db
 
 
 ############################
+# Dependencies and Build Artifacts
+############################
+
+node_modules/
+.pnpm-store/
+dist/
+.env
+build/
+cython_debug/
+
+
+############################
 # Logs and databases
 ############################
 
@@ -130,6 +142,33 @@ results
 node_modules
 .node_history
 
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+
+############################
+# Python
+############################
+
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.env
+
+
+############################
+# Go
+############################
+
+*.exe
+*.out
+*.test
+
+
 ############################
 # Package managers
 ############################
@@ -144,11 +183,24 @@ node_modules
 .pnp.*
 yarn-error.log
 
+
 ############################
 # Tests
 ############################
 
 coverage
+
+
+############################
+# Environment and Configuration Files
+############################
+
+.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
 
 ############################
 # Strapi
@@ -158,7 +210,7 @@ coverage
 license.txt
 exports
 .strapi
-dist
 build
+build/
 .strapi-updater.json
 .strapi-cloud.json
