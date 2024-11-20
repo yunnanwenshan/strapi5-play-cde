@@ -49,7 +49,6 @@ Thumbs.db
 Thumbs.db
 .nfs*
 
-
 ############################
 # Packages
 ############################
@@ -69,7 +68,6 @@ Thumbs.db
 *.dll
 *.exe
 *.o
-*.seed
 *.so
 *.swo
 *.swp
@@ -89,6 +87,7 @@ env/
 venv/
 vendor/
 cython_debug/
+core.*
 *.dll
 
 ############################
