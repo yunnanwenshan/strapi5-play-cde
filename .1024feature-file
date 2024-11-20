@@ -104,3 +104,5 @@ fileChangeLogs:
   - dist/src/api/movie-tag/services/movie-tag.js
   - dist/src/api/genre/services/genre.js
   - dist/src/index.js
+  - dist/src/api/category/content-types/category/schema.json
+  - dist/src/components/shared/media.json
