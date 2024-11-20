@@ -30,6 +30,14 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+############################
+# System and Version Control Files
+############################
+
+.git/
+.DS_Store
+Thumbs.db
+.nfs*
 
 
 ############################
@@ -70,7 +78,6 @@ Thumbs.db
 *.out
 *.pid
 
-
 ############################
 # Dependencies and Build Artifacts
 ############################
@@ -78,13 +85,14 @@ Thumbs.db
 node_modules/
 .pnpm-store/
 dist/
-.env
-build/
+env/
+venv/
+vendor/
 cython_debug/
-
+*.dll
 
 ############################
-# Logs and databases
+# Logs, Temporary, and Backup Files
 ############################
 
 .tmp
@@ -95,6 +103,14 @@ cython_debug/
 *.db
 *.sql-journal
 *.log
+*.pid.lock
+
+*.log
+*.tmp
+*.bak
+*.old
+*.pid
+*.seed
 *.pid.lock
 
 ############################
