@@ -99,3 +99,8 @@ fileChangeLogs:
   - dist/src/api/genre/controllers/genre.js
   - dist/src/api/genre/content-types/genre/schema.json
   - dist/src/api/about/content-types/about/schema.json
+  - .pnpm-store
+  - pnpm-lock.yaml
+  - dist/src/api/movie-tag/services/movie-tag.js
+  - dist/src/api/genre/services/genre.js
+  - dist/src/index.js
