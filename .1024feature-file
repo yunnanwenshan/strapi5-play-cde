@@ -106,3 +106,4 @@ fileChangeLogs:
   - dist/src/index.js
   - dist/src/api/category/content-types/category/schema.json
   - dist/src/components/shared/media.json
+  - dist/src/api/genre/routes/genre.js

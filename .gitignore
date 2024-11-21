@@ -34,16 +34,7 @@ $RECYCLE.BIN/
 # System and Version Control Files
 ############################
 
-.git/
-.DS_Store
-Thumbs.db
-.nfs*
-
-
-############################
-# System and Version Control Files
-############################
-
+node_modules/
 .git/
 .DS_Store
 Thumbs.db
@@ -65,7 +56,6 @@ Thumbs.db
 *.zip
 *.com
 *.class
-*.dll
 *.exe
 *.o
 *.so
@@ -73,14 +63,11 @@ Thumbs.db
 *.swp
 *.swn
 *.swm
-*.out
-*.pid
 
 ############################
 # Dependencies and Build Artifacts
 ############################
 
-node_modules/
 .pnpm-store/
 dist/
 env/
@@ -94,16 +81,6 @@ core.*
 # Logs, Temporary, and Backup Files
 ############################
 
-.tmp
-*.log
-*.sql
-*.sqlite
-*.sqlite3
-*.db
-*.sql-journal
-*.log
-*.pid.lock
-
 *.log
 *.tmp
 *.bak
@@ -111,12 +88,18 @@ core.*
 *.pid
 *.seed
 *.pid.lock
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.sql-journal
+*.pid.lock
 
 ############################
 # Language and Framework Specific Files
 ############################
 
-node_modules/
+
 .pnpm-store/
 dist/
 env/
@@ -154,13 +137,13 @@ lcov.info
 pids
 logs
 results
-node_modules
 .node_history
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+*.tsbuildinfo
 
 
 ############################
@@ -172,7 +155,6 @@ yarn-error.log*
 *.pyo
 *.pyd
 .Python
-*.env
 
 
 ############################
